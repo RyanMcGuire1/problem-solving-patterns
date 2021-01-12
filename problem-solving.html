@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem Solving Example</title>
+</head>
+<body>
+
+<script>
+
+	//1. Understand the Problem
+
+    //EX: Write a function which takes in a string and returns counts of each character in the string.
+
+	/*
+		Restate the question: take a string, count the characters, return how many of each character
+		What are my inputs: String, could be a sentence, alphanumeric characters (str)
+		What are my outputs: object with char as key and count as value, (charCount)
+		Can outputs be determined from inputs, enough info to start: Yes
+
+	*/
+
+
+
+    //2. Explore Concrete Examples
+
+	//EX: Write a function which takes in a string and returns counts of each alphanumeric character in the string.
+
+	/*
+		simple: countChars("aaaa") => {a : 4}
+
+		complex: countChars("hello hey!) => ?
+	*/
+
+
+
+	//3. Break it Down
+
+    //EX: Write a function which takes in a string and returns counts of each alphanumeric character in the string.
+
+    /*
+
+	*/
+		// function countChars(str){
+			// make a bucket object
+			// loop through string to get chars
+			// check if character is alphanumeric
+			// If it is, add to object
+			// return the object
+		// }
+
+
+    //4. Solve || Simplify
+
+    //EX: Write a function which takes in a string and returns counts of each alphanumeric character in the string.
+	function countChars(str){
+		// make a bucket object
+		let charCount = {};
+		// loop through string to get chars
+		for (let char of str){
+
+		}
+		// check if character is alphanumeric
+		// lowercase each char
+		char = char.toLowerCase();
+
+		//add char to obj
+		if(!charCount[char]){
+			charCount[char] = 1;
+		} else {
+			charCount[char]++;
+		}
+
+		// If it is, add to object
+		// return the object
+		return charCount;
+	}
+
+
+
+
+	//5. Look Back and Refactor
+
+    //EX: Write a function which takes in a string and returns counts of each alphanumeric character in the string.
+
+
+
+
+</script>
+</body>
+</html>
